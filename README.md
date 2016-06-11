@@ -20,15 +20,16 @@ yeoman
 A step by step series of examples that tell you have to get a development env running
 
 Stay what the step will be
+Install Yeoman:
 
 ```
-Give the example
+npm install -g yo
 ```
 
-And repeat
+And install this generator:
 
 ```
-until finished
+npm install -g generator-zillionAngular
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
@@ -36,7 +37,9 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+```
+yo zillionAngular
+```
 
 ## Built With
 
