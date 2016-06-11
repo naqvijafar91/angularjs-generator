@@ -1,0 +1,17 @@
+/**
+* Created by jafarnaqvi on 10/06/16.
+*/
+
+(function(){
+
+angular.module('<%= name %>',[
+
+<% for(var i = 0; i < dependencies.length; i++) { %>
+<% if(dependencies.length - 1 == i) { %>
+'<%= dependencies[i] %>'<% }else{ %>'<%= dependencies[i] %>',
+<% } } %>
+
+
+]);
+
+})();

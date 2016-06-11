@@ -1,0 +1,28 @@
+{
+  "name": "generator-zillionAngular",
+  "version": "0.1.0",
+  "description": "Yeoman Generator for enforcing AngularJs best practices",
+  "files": [
+    "app",
+    "router"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "scaffold",
+    "generator",
+    "framework",
+    "mvc",
+    "phaser",
+    "gulp",
+    "requirejs"
+  ],
+  "author": {
+    "name": "Jafar Naqvi",
+    "email": "naqvi.jafar91@gmail.com",
+    "url": "https://github.com/naqvijafar91"
+  },
+  "dependencies": {
+    "yeoman-generator": "^0.23.3"
+  }
+
+}
